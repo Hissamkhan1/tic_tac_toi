@@ -1525,6 +1525,29 @@ PODS:
     - React-logger (= 0.78.0)
     - React-perflogger (= 0.78.0)
     - React-utils (= 0.78.0)
+  - RNSnackbar (2.8.0):
+    - React-Core
+  - RNVectorIcons (10.2.0):
+    - DoubleConversion
+    - glog
+    - hermes-engine
+    - RCT-Folly (= 2024.11.18.00)
+    - RCTRequired
+    - RCTTypeSafety
+    - React-Core
+    - React-debug
+    - React-Fabric
+    - React-featureflags
+    - React-graphics
+    - React-ImageManager
+    - React-NativeModulesApple
+    - React-RCTFabric
+    - React-rendererdebug
+    - React-utils
+    - ReactCodegen
+    - ReactCommon/turbomodule/bridging
+    - ReactCommon/turbomodule/core
+    - Yoga
   - SocketRocket (0.7.1)
   - Yoga (0.0.0)
 
@@ -1596,6 +1619,8 @@ DEPENDENCIES:
   - ReactAppDependencyProvider (from `build/generated/ios`)
   - ReactCodegen (from `build/generated/ios`)
   - ReactCommon/turbomodule/core (from `../node_modules/react-native/ReactCommon`)
+  - RNSnackbar (from `../node_modules/react-native-snackbar`)
+  - RNVectorIcons (from `../node_modules/react-native-vector-icons`)
   - Yoga (from `../node_modules/react-native/ReactCommon/yoga`)
 
 SPEC REPOS:
@@ -1734,6 +1759,10 @@ EXTERNAL SOURCES:
     :path: build/generated/ios
   ReactCommon:
     :path: "../node_modules/react-native/ReactCommon"
+  RNSnackbar:
+    :path: "../node_modules/react-native-snackbar"
+  RNVectorIcons:
+    :path: "../node_modules/react-native-vector-icons"
   Yoga:
     :path: "../node_modules/react-native/ReactCommon/yoga"
 
@@ -1803,9 +1832,11 @@ SPEC CHECKSUMS:
   ReactAppDependencyProvider: a1fb08dfdc7ebc387b2e54cfc9decd283ed821d8
   ReactCodegen: 008c319179d681a6a00966edfc67fda68f9fbb2e
   ReactCommon: 0c097b53f03d6bf166edbcd0915da32f3015dd90
+  RNSnackbar: f5ad232be3bcab6d5ef7e3b02cdaae621c944b75
+  RNVectorIcons: bd818296a51dc2bb8c3bd97a3ca399df1afe216d
   SocketRocket: d4aabe649be1e368d1318fdf28a022d714d65748
   Yoga: afd04ff05ebe0121a00c468a8a3c8080221cb14c
 
 PODFILE CHECKSUM: 5804a37d526af9fd57a4d8d99af2c70d808849a6
 
-COCOAPODS: 1.15.2
+COCOAPODS: 1.16.2
